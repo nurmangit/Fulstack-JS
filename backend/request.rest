@@ -1,0 +1,14 @@
+GET http://localhost:3000/user
+
+###
+GET http://localhost:300o/user/1
+
+###
+GET http://localhost:300o/user
+Content-Type: application/json
+
+{
+    "nama":"sigit",
+    "email": "sigit.com",
+    "status":"anjing"
+}
